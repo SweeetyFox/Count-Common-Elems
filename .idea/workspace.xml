@@ -565,9 +565,9 @@
       <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/IntegerUnaryOperation.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/UnaryOperation.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/count_common_elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/count_common_elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count_common_elements_testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/count_common_elements_testing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/vk-intern.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/vk-intern.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/vk-intern" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/vk-intern" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -592,8 +592,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/count_common_elements.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -604,8 +604,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/count_common_elements_testing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-2401">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -706,30 +706,29 @@
       <updated>1557329730871</updated>
       <workItem from="1557329732262" duration="5496000" />
       <workItem from="1557420133033" duration="5402000" />
-      <workItem from="1557438022961" duration="2284000" />
+      <workItem from="1557438022961" duration="2923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13182000" />
+    <option name="totallyTimeSpent" value="13821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1077" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32994923" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32994923" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32994923" />
@@ -791,6 +790,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/count_common_elements.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -798,20 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/count_common_elements.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/count_common_elements_testing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-2401">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
