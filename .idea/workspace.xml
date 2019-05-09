@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Finite_State_Automaton" targetName="vk-intern" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da046550-97c3-433c-a256-304e0db20bed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../C-plus-plus/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C-plus-plus/big_integer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C-plus-plus/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS center/entry-test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/.idea/Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW1/Sum/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW1/Sum/Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW1/Sum/SumTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW1/SumBigInteger/SumBigInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW1/SumBigInteger/SumBigInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW1/SumBigInteger/SumBigIntegerDigitTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/HW10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/MainChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/MainFilesChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/MainStdChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/Randomized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/base/TestCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/AbstractBinaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/AbstractUnaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/And.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/AnyExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/BaseTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/BaseTest$Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Divide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/DoubleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Multiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Not.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Or.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Subtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/TestMyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/TripleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/UnaryMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/Xor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/Either$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/Either$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ExpressionParser 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ExpressionParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ExpressionParser$Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ExpressionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserBitwiseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserNotCountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserTest$ExpException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserTest$Reason.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserTest$TExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserTest$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW10/out/production/HW10/expression/parser/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/HW11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW11/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/HW12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/MainChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/MainFilesChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/MainStdChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/Randomized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/base/TestCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/AbstractBinaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/AbstractUnaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/AnyExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/BaseTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/BaseTest$Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/CheckedAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/CheckedDivide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/CheckedMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/CheckedNegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/CheckedSubtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/DoubleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/TestMyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/TripleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/DivisionByZeroException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/EvaluationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/ExceptionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/OverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/ParsingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/WrongOperandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/WrongScopesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/exceptions/WrongSymbolException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/Either$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/Either$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ExpressionParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ExpressionParser$Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ExpressionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserBitwiseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserNotCountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserTest$ExpException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserTest$Reason.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserTest$TExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserTest$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/out/production/HW12/expression/parser/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/MainChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/MainFilesChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/MainStdChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/Randomized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/base/TestCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/AbstractBinaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/AbstractUnaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/AnyExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/CheckedAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/CheckedDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/CheckedMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/CheckedNegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/CheckedSubtract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/DoubleExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/TestMyParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/TripleExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/DivisionByZeroException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/EvaluationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/ExceptionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/OverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/ParsingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/WrongOperandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/WrongScopesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/exceptions/WrongSymbolException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/parser/Either.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/parser/ExpressionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/parser/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/parser/ParserBitwiseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/parser/ParserNotCountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12(2)/src/expression/parser/ParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12/.idea/HW12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW12/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/ReverseFastTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/ReverseTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/ReverseTranspose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/ReverseTranspose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW2/ReverseTransposeTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumFileTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumHex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumHex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumHexFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumHexFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumHexFileTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/SumHexFile — копия.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW3/test17.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/Hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatInputSorted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatInputSorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatInputTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/WordStatWordsTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW4/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/HW5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/out/production/HW5/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/out/production/HW5/ReverseFastTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/out/production/HW5/ReverseMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/out/production/HW5/ReverseMinFastTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/out/production/HW5/Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/out/production/HW5/hs_err_pid8267.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/Reverse$Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/ReverseFastTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/ReverseMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/ReverseMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/ReverseMinFastTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/hs_err_pid8267.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/hs_err_pid8283.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW5/src/hs_err_pid8302.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/HW6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/out/production/HW6/Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/out/production/HW6/WordStatLineIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/out/production/HW6/WordStatLineIndexTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/out/production/HW6/WordStatWordsTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/out/production/HW6/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/out/production/HW6/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/WordStatLineIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/WordStatLineIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/WordStatLineIndexTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/WordStatWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/WordStatWordsTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW6/src/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/HW7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/src/BinarySearchMissingTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/src/search/BinarySearchMissing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW7/src/search/BinarySearchMissing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/HW8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/out/production/HW8/ArrayQueueDequeTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/out/production/HW8/ArrayQueueTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/out/production/HW8/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/out/production/HW8/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/out/production/HW8/queue/ArrayQueueADT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/out/production/HW8/queue/ArrayQueueModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/ArrayQueueDequeTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/ArrayQueueTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/queue/ArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/queue/ArrayQueueADT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/queue/ArrayQueueADT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/queue/ArrayQueueModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW8/src/queue/ArrayQueueModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/HW9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/QueueFunctionsTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/QueueTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/queue/AbstractQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/queue/LinkedQueue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/queue/LinkedQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/queue/LinkedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/out/production/HW9/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/src/queue/AbstractQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/src/queue/ArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/src/queue/LinkedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HW9/src/queue/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/HWW12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/TestMyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/MainChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/MainFilesChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/MainStdChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/Randomized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/base/TestCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/AbstractBinaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/AbstractUnaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/BaseTest$Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedDivide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedHigh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedLow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedNegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/CheckedSubtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/Either$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/Either$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/TripleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/AllExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/DivisionByZeroException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/EmptyBracketsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/ExceptionsHighLowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/ExceptionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/IncorrectUsingOfOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/InvalidBracketsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/MissingOperandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/MissingOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/OverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/UsingWrongOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/exceptions/WrongEndOfExpressionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ExpressionParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ExpressionParser$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ExpressionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ParserTest$ExpException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ParserTest$Reason.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ParserTest$TExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ParserTest$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/out/production/HWW12/expression/parser/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/TestMyParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/MainChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/MainFilesChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/MainStdChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/Randomized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/base/TestCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/AbstractBinaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/AbstractUnaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedHigh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedLow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedNegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/CheckedSubtract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/Either.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/TripleExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/AllExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/DivisionByZeroException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/EmptyBracketsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/ExceptionsHighLowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/ExceptionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/IncorrectUsingOfOperatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/InvalidBracketsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/MissingOperandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/MissingOperatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/OverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/UsingWrongOperatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/exceptions/WrongEndOfExpressionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/parser/ExpressionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/parser/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/HWW12/src/expression/parser/ParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/First Term/Scanner/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW2(cloned)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/HW3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/TestMyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/MainChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/MainFilesChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/MainStdChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/Randomized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/base/TestCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/AbstractBinaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/AbstractUnaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/BaseTest$Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/CheckedAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/CheckedDivide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/CheckedMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/CheckedNegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/CheckedSubtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/Either$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/Either$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/TripleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/AllExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/DivisionByZeroException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/EmptyBracketsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/IncorrectUsingOfOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/InvalidBracketsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/MissingOperandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/MissingOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/OverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/UsingWrongOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/exceptions/WrongEndOfExpressionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/generic/GenericTabulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/generic/GenericTest$F.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/generic/GenericTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/generic/Tabulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/parser/ExpressionParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/parser/ExpressionParser$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/parser/ExpressionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/expression/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/BigIntegerBinaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/BigIntegerUnaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/BinaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/DoubleBinaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/DoubleUnaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/IntegerBinaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/IntegerUnaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HW3/operations/UnaryOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/TestMyParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/MainChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/MainFilesChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/MainStdChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/Randomized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/base/TestCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/AbstractBinaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/AbstractUnaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/BaseTest$Op.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedDivide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedHigh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedLow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedNegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/CheckedSubtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/Either$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/Either$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/Either.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/TripleExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/AllExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/DivisionByZeroException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/EmptyBracketsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/ExceptionsHighLowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/ExceptionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/IncorrectUsingOfOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/InvalidBracketsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/MissingOperandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/MissingOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/OverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/UsingWrongOperatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/exceptions/WrongEndOfExpressionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ExpressionParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ExpressionParser$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ExpressionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ParserTest$ExpException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ParserTest$Reason.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ParserTest$TExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ParserTest$Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/out/production/HWW12/expression/parser/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/TestMyParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/MainChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/MainFilesChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/MainStdChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/Randomized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/base/TestCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/AbstractBinaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/AbstractUnaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/CheckedAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/CheckedDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/CheckedMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/CheckedNegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/CheckedSubtract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/Either.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/TripleExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/AllExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/DivisionByZeroException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/EmptyBracketsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/IncorrectUsingOfOperatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/InvalidBracketsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/MissingOperandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/MissingOperatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/OverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/UsingWrongOperatorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/exceptions/WrongEndOfExpressionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/generic/GenericTabulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/generic/GenericTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/generic/Tabulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/parser/ExpressionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/expression/parser/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/BigIntegerBinaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/BigIntegerUnaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/BinaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/DoubleBinaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/DoubleUnaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/IntegerBinaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/IntegerUnaryOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paradigms/Second Term/HW3/src/operations/UnaryOperation.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/count_common_elements.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/count_common_elements_testing.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gtest-all.cc" />
+        <option value="$PROJECT_DIR$/gtest_main.cc" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/testing.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1077" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Finite_State_Automaton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vk-intern" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="vk-intern" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Finite_State_Automaton" TARGET_NAME="vk-intern" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Finite_State_Automaton" RUN_TARGET_NAME="vk-intern">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da046550-97c3-433c-a256-304e0db20bed" name="Default Changelist" comment="" />
+      <created>1557329730871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557329730871</updated>
+      <workItem from="1557329732262" duration="5496000" />
+      <workItem from="1557420133033" duration="4870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10366000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="23" width="1920" height="1077" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32994923" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32994923" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/VK-internship/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
+          <folding>
+            <element signature="e#54638#55196#0" expanded="true" />
+            <element signature="e#55450#55468#0" expanded="true" />
+            <element signature="e#55994#56185#0" expanded="true" />
+            <element signature="e#135158#135230#0" expanded="true" />
+            <element signature="e#196761#196895#0" expanded="true" />
+            <element signature="e#244042#244061#0" expanded="true" />
+            <element signature="e#244124#244145#0" expanded="true" />
+            <element signature="e#244218#244240#0" expanded="true" />
+            <element signature="e#244248#244271#0" expanded="true" />
+            <element signature="e#244344#244364#0" expanded="true" />
+            <element signature="e#247032#247188#0" expanded="true" />
+            <element signature="e#247619#247652#0" expanded="true" />
+            <element signature="e#248336#248381#0" expanded="true" />
+            <element signature="e#263387#271532#0" expanded="true" />
+            <element signature="e#276047#276061#0" expanded="true" />
+            <element signature="e#276970#277153#0" expanded="true" />
+            <element signature="e#280023#281315#0" expanded="true" />
+            <element signature="e#281367#281928#0" expanded="true" />
+            <element signature="e#281984#283280#0" expanded="true" />
+            <element signature="e#283504#283592#0" expanded="true" />
+            <element signature="e#286834#287001#0" expanded="true" />
+            <element signature="e#288269#291189#0" expanded="true" />
+            <element signature="e#291818#292547#0" expanded="true" />
+            <element signature="e#309020#309048#0" expanded="true" />
+            <element signature="e#310590#311226#0" expanded="true" />
+            <element signature="e#324572#325336#0" expanded="true" />
+            <element signature="e#325639#326573#0" expanded="true" />
+            <element signature="e#328635#328657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest_main.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_common_elements.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_common_elements_testing.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

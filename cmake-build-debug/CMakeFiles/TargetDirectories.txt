@@ -1,0 +1,3 @@
+/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles/vk-intern.dir
