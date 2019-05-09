@@ -23,7 +23,7 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
         int x;
         do {
             x = int_random();
-        } while (st.count(x) == 1);
+        } while (st.find(x) != st.end());
         st.insert(x);
 
         a.push_back(x);
@@ -34,7 +34,7 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
         int x;
         do {
             x = int_random();
-        } while (st.count(x) == 1);
+        } while (st.find(x) != st.end());
         st.insert(x);
 
         a.push_back(x);
@@ -44,7 +44,7 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
         int x;
         do {
             x = int_random();
-        } while (st.count(x) == 1);
+        } while (st.find(x) != st.end());
         st.insert(x);
 
         b.push_back(x);
