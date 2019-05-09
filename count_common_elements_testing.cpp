@@ -4,7 +4,11 @@
 #include <unordered_set>
 #include "gtest.h"
 
-unsigned int count_common_elements(std::vector<int> a, std::vector<int> b);
+unsigned count_common_elements(std::vector<int> &a, std::vector<int> &b);
+
+unsigned count(std::vector<int> a, std::vector<int> b) {
+    return count_common_elements(a, b);
+}
 
 // function returns two random std::vectors and amount of common elements
 // a, b - vectors
@@ -56,26 +60,26 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
 
 TEST(hand_made_tests, extreme_cases)
 {
-    EXPECT_TRUE(count_common_elements({}, {}) == 0);
+    EXPECT_TRUE(count({}, {}) == 0);
 
-    EXPECT_TRUE(count_common_elements({INT32_MAX}, {INT32_MAX}) == 1);
-    EXPECT_TRUE(count_common_elements({INT32_MIN}, {INT32_MIN}) == 1);
-    EXPECT_TRUE(count_common_elements({INT32_MAX}, {INT32_MIN}) == 0);
-    EXPECT_TRUE(count_common_elements({INT32_MIN}, {INT32_MAX}) == 0);
-    EXPECT_TRUE(count_common_elements({INT32_MIN}, {}) == 0);
-    EXPECT_TRUE(count_common_elements({INT32_MAX}, {}) == 0);
-    EXPECT_TRUE(count_common_elements({}, {INT32_MIN}) == 0);
-    EXPECT_TRUE(count_common_elements({}, {INT32_MAX}) == 0);
+    EXPECT_TRUE(count({INT32_MAX}, {INT32_MAX}) == 1);
+    EXPECT_TRUE(count({INT32_MIN}, {INT32_MIN}) == 1);
+    EXPECT_TRUE(count({INT32_MAX}, {INT32_MIN}) == 0);
+    EXPECT_TRUE(count({INT32_MIN}, {INT32_MAX}) == 0);
+    EXPECT_TRUE(count({INT32_MIN}, {}) == 0);
+    EXPECT_TRUE(count({INT32_MAX}, {}) == 0);
+    EXPECT_TRUE(count({}, {INT32_MIN}) == 0);
+    EXPECT_TRUE(count({}, {INT32_MAX}) == 0);
 }
 
 TEST(hand_made_tests, tricky_cases)
 {
-    EXPECT_TRUE(count_common_elements({239}, {239}) == 1);
-    EXPECT_TRUE(count_common_elements({-239}, {239}) == 0);
-    EXPECT_TRUE(count_common_elements({0}, {-0}) == 1);
-    EXPECT_TRUE(count_common_elements({42}, {239}) == 0);
-    EXPECT_TRUE(count_common_elements({}, {239}) == 0);
-    EXPECT_TRUE(count_common_elements({239}, {}) == 0);
+    EXPECT_TRUE(count({239}, {239}) == 1);
+    EXPECT_TRUE(count({-239}, {239}) == 0);
+    EXPECT_TRUE(count({0}, {-0}) == 1);
+    EXPECT_TRUE(count({42}, {239}) == 0);
+    EXPECT_TRUE(count({}, {239}) == 0);
+    EXPECT_TRUE(count({239}, {}) == 0);
 }
 
 const size_t EASY = 10;     // amount of tests to be generated,
@@ -96,7 +100,7 @@ TEST(random_tests, small_arrays_cases_easy)
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, SMALL);
 
-        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+        EXPECT_TRUE(count({a}, {b}) == common);
     }
 }
 
@@ -107,7 +111,7 @@ TEST(random_tests, small_arrays_cases_medium)
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, SMALL);
 
-        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+        EXPECT_TRUE(count({a}, {b}) == common);
     }
 }
 
@@ -118,7 +122,7 @@ TEST(random_tests, small_arrays_cases_hard)
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, SMALL);
 
-        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+        EXPECT_TRUE(count({a}, {b}) == common);
     }
 }
 
@@ -132,7 +136,7 @@ TEST(random_tests, average_arrays_cases_easy)
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, AVERAGE);
 
-        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+        EXPECT_TRUE(count({a}, {b}) == common);
     }
 }
 
@@ -143,7 +147,7 @@ TEST(random_tests, average_arrays_cases_medium)
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, AVERAGE);
 
-        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+        EXPECT_TRUE(count({a}, {b}) == common);
     }
 }
 
@@ -157,7 +161,7 @@ TEST(random_tests, big_arrays_cases_easy)
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, BIG);
 
-        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+        EXPECT_TRUE(count({a}, {b}) == common);
     }
 }
 
@@ -178,6 +182,6 @@ TEST(random_tests, big_arrays_cases_easy)
 //        std::vector<int> a, b;
 //        generate_random_vectors(a, b, common, BIG);
 //
-//        EXPECT_TRUE(count_common_elements({a}, {b}) == common);
+//        EXPECT_TRUE(count({a}, {b}) == common);
 //    }
 //}
