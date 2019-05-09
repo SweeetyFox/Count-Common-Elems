@@ -6,6 +6,7 @@
 
 unsigned count_common_elements(std::vector<int> &a, std::vector<int> &b);
 
+// function 'transfers' r-value vectors from tests to l-value vectors for count_common_elements
 unsigned count(std::vector<int> a, std::vector<int> b) {
     return count_common_elements(a, b);
 }
@@ -61,7 +62,6 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
 TEST(hand_made_tests, extreme_cases)
 {
     EXPECT_TRUE(count({}, {}) == 0);
-
     EXPECT_TRUE(count({INT32_MAX}, {INT32_MAX}) == 1);
     EXPECT_TRUE(count({INT32_MIN}, {INT32_MIN}) == 1);
     EXPECT_TRUE(count({INT32_MAX}, {INT32_MIN}) == 0);
@@ -168,13 +168,26 @@ TEST(random_tests, big_arrays_cases_easy)
 //
 //  ! ACHTUNG !
 //
-//  This test is huge, so run it only under release mode.
+//  These two tests are huge, so run them only under release mode.
 //  To change debug mode on release (OS X), please follow these steps:
 //  (Settings -> Build, Execution, Deployment -> CMake) and change Debug on Release.
 //
-//  On my computer it took: 72586 ms
+//  On my computer these two tests took: ~34.313 ms & ~38.439 ms
+//        all other tests together took: ~2.932 ms
+//                             in total: ~75.684 ms
 //
 
+//TEST(random_tests, average_arrays_cases_HARD)
+//{
+//    size_t common;
+//    for (int i = 0; i < HARD; ++i) {
+//        std::vector<int> a, b;
+//        generate_random_vectors(a, b, common, AVERAGE);
+//
+//        EXPECT_TRUE(count({a}, {b}) == common);
+//    }
+//}
+//
 //TEST(random_tests, big_arrays_cases_medium)
 //{
 //    size_t common;
