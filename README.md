@@ -4,4 +4,4 @@ So I implemented a **function**, which optimally **counts common elements in two
 
 [Funtion's implementation](https://github.com/SweeetyFox/Count-Common-Elems/blob/master/count_common_elements.cpp)
 
-[Tests](https://github.com/SweeetyFox/Count-Common-Elems/blob/master/count_common_elements.cpp)
+[Tests](https://github.com/SweeetyFox/Count-Common-Elems/blob/master/count_common_elements_testing.cpp)
