@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/admin/Documents/University/vk-intern/count_common_elements.cpp
-vector
--
-unordered_set
--
-
 /Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp
 algorithm
 -

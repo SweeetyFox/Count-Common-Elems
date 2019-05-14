@@ -3,27 +3,26 @@
 
 // function returns amount of common elements in two std::vectors
 // a, b - vectors
-unsigned count_common_elements(std::vector<int> &a, std::vector<int> &b) {
+unsigned count_common_elements(const std::vector<int> &a, const std::vector<int> &b) {
+    unsigned common = 0; // amount of common elements, the answer
     std::unordered_set<int> uset;
     size_t n = a.size(), m = b.size();
-    unsigned common = 0; // amount of common elements, the answer
-    bool array_swap_done = false;
 
     // we put smaller array to set, in order to use less memory
+    // I can't swap constant arrays directly, so I use 'pointers'
+    auto a_pointer = a.begin();
+    auto b_pointer = b.begin();
     if (n > m) {
-        std::swap(a, b), std::swap(n, m);
-        array_swap_done = true;
+        std::swap(a_pointer, b_pointer);
+        std::swap(n, m);
     }
+
     for (size_t i = 0; i < n; ++i) {
-        uset.insert(a[i]);
+        uset.insert(*(a_pointer++));
     }
     for (size_t i = 0; i < m; ++i) {
-        if (uset.find(b[i]) != uset.end()) // if one more common element found,
-            common++;                      // increment the answer
-    }
-    // we have to revert the changes, in order to keep function's invariant
-    if (array_swap_done) {
-        swap(a, b);
+        if (uset.find(*(b_pointer++)) != uset.end()) // if one more common element found,
+            common++;                                // increment the answer
     }
     return common;
 }

@@ -4,7 +4,7 @@
 #include <unordered_set>
 #include "gtest.h"
 
-unsigned count_common_elements(std::vector<int> &a, std::vector<int> &b);
+unsigned count_common_elements(const std::vector<int> &a, const std::vector<int> &b);
 
 // function 'transfers' r-value vectors from tests to l-value vectors for count_common_elements
 unsigned count(std::vector<int> a, std::vector<int> b) {
