@@ -123,6 +123,60 @@ vk-intern/fast:
 	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/build
 .PHONY : vk-intern/fast
 
+count_common_elements.o: count_common_elements.cpp.o
+
+.PHONY : count_common_elements.o
+
+# target to build an object file
+count_common_elements.cpp.o:
+	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/count_common_elements.cpp.o
+.PHONY : count_common_elements.cpp.o
+
+count_common_elements.i: count_common_elements.cpp.i
+
+.PHONY : count_common_elements.i
+
+# target to preprocess a source file
+count_common_elements.cpp.i:
+	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/count_common_elements.cpp.i
+.PHONY : count_common_elements.cpp.i
+
+count_common_elements.s: count_common_elements.cpp.s
+
+.PHONY : count_common_elements.s
+
+# target to generate assembly for a file
+count_common_elements.cpp.s:
+	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/count_common_elements.cpp.s
+.PHONY : count_common_elements.cpp.s
+
+count_common_elements_testing.o: count_common_elements_testing.cpp.o
+
+.PHONY : count_common_elements_testing.o
+
+# target to build an object file
+count_common_elements_testing.cpp.o:
+	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o
+.PHONY : count_common_elements_testing.cpp.o
+
+count_common_elements_testing.i: count_common_elements_testing.cpp.i
+
+.PHONY : count_common_elements_testing.i
+
+# target to preprocess a source file
+count_common_elements_testing.cpp.i:
+	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.i
+.PHONY : count_common_elements_testing.cpp.i
+
+count_common_elements_testing.s: count_common_elements_testing.cpp.s
+
+.PHONY : count_common_elements_testing.s
+
+# target to generate assembly for a file
+count_common_elements_testing.cpp.s:
+	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.s
+.PHONY : count_common_elements_testing.cpp.s
+
 gtest-all.o: gtest-all.cc.o
 
 .PHONY : gtest-all.o
@@ -177,60 +231,6 @@ gtest_main.cc.s:
 	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/gtest_main.cc.s
 .PHONY : gtest_main.cc.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-testing.o: testing.cpp.o
-
-.PHONY : testing.o
-
-# target to build an object file
-testing.cpp.o:
-	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/testing.cpp.o
-.PHONY : testing.cpp.o
-
-testing.i: testing.cpp.i
-
-.PHONY : testing.i
-
-# target to preprocess a source file
-testing.cpp.i:
-	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/testing.cpp.i
-.PHONY : testing.cpp.i
-
-testing.s: testing.cpp.s
-
-.PHONY : testing.s
-
-# target to generate assembly for a file
-testing.cpp.s:
-	$(MAKE) -f CMakeFiles/vk-intern.dir/build.make CMakeFiles/vk-intern.dir/testing.cpp.s
-.PHONY : testing.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... vk-intern"
+	@echo "... count_common_elements.o"
+	@echo "... count_common_elements.i"
+	@echo "... count_common_elements.s"
+	@echo "... count_common_elements_testing.o"
+	@echo "... count_common_elements_testing.i"
+	@echo "... count_common_elements_testing.s"
 	@echo "... gtest-all.o"
 	@echo "... gtest-all.i"
 	@echo "... gtest-all.s"
 	@echo "... gtest_main.o"
 	@echo "... gtest_main.i"
 	@echo "... gtest_main.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... testing.o"
-	@echo "... testing.i"
-	@echo "... testing.s"
 .PHONY : help
 
 

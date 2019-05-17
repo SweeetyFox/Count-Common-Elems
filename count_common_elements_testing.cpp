@@ -4,7 +4,7 @@
 #include <unordered_set>
 #include "gtest.h"
 
-unsigned count_common_elements(const std::vector<int> &a, const std::vector<int> &b);
+unsigned count_common_elements(std::vector<int> const &a, std::vector<int> const &b);
 
 // function 'transfers' r-value vectors from tests to l-value vectors for count_common_elements
 unsigned count(std::vector<int> a, std::vector<int> b) {
@@ -19,12 +19,13 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
     std::mt19937 int_random(static_cast<unsigned int>(time(0)));
     std::unordered_set<int> st;
 
-    auto betw_random = std::bind(std::uniform_int_distribution<int>(0, array_size / 2), int_random);
+    auto between_random = std::bind(std::uniform_int_distribution<int>(0, array_size / 2), int_random);
 
-    common = betw_random();
-    unsigned not_common_a = betw_random(), not_common_b = betw_random();
+    common = between_random();
+    unsigned not_common_a = between_random(), not_common_b = between_random(); // amount of different elements
 
-    for (size_t i = 0; i < common; ++i) {
+    // generating common elements
+    for (size_t i = 0; i != common; ++i) {
         int x;
         do {
             x = int_random();
@@ -35,7 +36,8 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
         b.push_back(x);
     }
 
-    for (size_t i = 0; i < not_common_a; ++i) {
+    // generating different elements for first array
+    for (size_t i = 0; i != not_common_a; ++i) {
         int x;
         do {
             x = int_random();
@@ -45,7 +47,8 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
         a.push_back(x);
     }
 
-    for (size_t i = 0; i < not_common_b; ++i) {
+    // for second array
+    for (size_t i = 0; i != not_common_b; ++i) {
         int x;
         do {
             x = int_random();
@@ -55,12 +58,12 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
         b.push_back(x);
     }
 
+    // shuffle for more randomness
     std::shuffle(std::begin(a), std::end(a), int_random);
     std::shuffle(std::begin(b), std::end(b), int_random);
 }
 
-TEST(hand_made_tests, extreme_cases)
-{
+TEST(hand_made_tests, extreme_cases) {
     EXPECT_TRUE(count({}, {}) == 0);
     EXPECT_TRUE(count({INT32_MAX}, {INT32_MAX}) == 1);
     EXPECT_TRUE(count({INT32_MIN}, {INT32_MIN}) == 1);
@@ -72,14 +75,14 @@ TEST(hand_made_tests, extreme_cases)
     EXPECT_TRUE(count({}, {INT32_MAX}) == 0);
 }
 
-TEST(hand_made_tests, tricky_cases)
-{
-    EXPECT_TRUE(count({239}, {239}) == 1);
-    EXPECT_TRUE(count({-239}, {239}) == 0);
+TEST(hand_made_tests, tricky_cases) {
     EXPECT_TRUE(count({0}, {-0}) == 1);
-    EXPECT_TRUE(count({42}, {239}) == 0);
+    EXPECT_TRUE(count({00000}, {000}) == 1);
     EXPECT_TRUE(count({}, {239}) == 0);
     EXPECT_TRUE(count({239}, {}) == 0);
+    EXPECT_TRUE(count({239}, {239}) == 1);
+    EXPECT_TRUE(count({-239}, {239}) == 0);
+    EXPECT_TRUE(count({42}, {239}) == 0);
 }
 
 const size_t EASY = 10;     // amount of tests to be generated,
@@ -93,10 +96,9 @@ const int BIG = 100000;
 //
 //  random tests with small arrays
 //
-TEST(random_tests, small_arrays_cases_easy)
-{
+TEST(random_tests, small_arrays_cases_easy) {
     size_t common;
-    for (int i = 0; i < EASY; ++i) {
+    for (int i = 0; i != EASY; ++i) {
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, SMALL);
 
@@ -104,10 +106,9 @@ TEST(random_tests, small_arrays_cases_easy)
     }
 }
 
-TEST(random_tests, small_arrays_cases_medium)
-{
+TEST(random_tests, small_arrays_cases_medium) {
     size_t common;
-    for (int i = 0; i < MEDIUM; ++i) {
+    for (int i = 0; i != MEDIUM; ++i) {
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, SMALL);
 
@@ -115,10 +116,9 @@ TEST(random_tests, small_arrays_cases_medium)
     }
 }
 
-TEST(random_tests, small_arrays_cases_hard)
-{
+TEST(random_tests, small_arrays_cases_hard) {
     size_t common;
-    for (int i = 0; i < HARD; ++i) {
+    for (int i = 0; i != HARD; ++i) {
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, SMALL);
 
@@ -129,10 +129,9 @@ TEST(random_tests, small_arrays_cases_hard)
 //
 //  random tests with average arrays
 //
-TEST(random_tests, average_arrays_cases_easy)
-{
+TEST(random_tests, average_arrays_cases_easy) {
     size_t common;
-    for (int i = 0; i < EASY; ++i) {
+    for (int i = 0; i != EASY; ++i) {
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, AVERAGE);
 
@@ -140,10 +139,9 @@ TEST(random_tests, average_arrays_cases_easy)
     }
 }
 
-TEST(random_tests, average_arrays_cases_medium)
-{
+TEST(random_tests, average_arrays_cases_medium) {
     size_t common;
-    for (int i = 0; i < MEDIUM; ++i) {
+    for (int i = 0; i != MEDIUM; ++i) {
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, AVERAGE);
 
@@ -154,10 +152,9 @@ TEST(random_tests, average_arrays_cases_medium)
 //
 //  random tests with big arrays
 //
-TEST(random_tests, big_arrays_cases_easy)
-{
+TEST(random_tests, big_arrays_cases_easy) {
     size_t common;
-    for (int i = 0; i < EASY; ++i) {
+    for (int i = 0; i != EASY; ++i) {
         std::vector<int> a, b;
         generate_random_vectors(a, b, common, BIG);
 
@@ -180,18 +177,18 @@ TEST(random_tests, big_arrays_cases_easy)
 //TEST(random_tests, average_arrays_cases_HARD)
 //{
 //    size_t common;
-//    for (int i = 0; i < HARD; ++i) {
+//    for (int i = 0; i != HARD; ++i) {
 //        std::vector<int> a, b;
 //        generate_random_vectors(a, b, common, AVERAGE);
 //
 //        EXPECT_TRUE(count({a}, {b}) == common);
 //    }
 //}
-//
+
 //TEST(random_tests, big_arrays_cases_medium)
 //{
 //    size_t common;
-//    for (int i = 0; i < MEDIUM; ++i) {
+//    for (int i = 0; i != MEDIUM; ++i) {
 //        std::vector<int> a, b;
 //        generate_random_vectors(a, b, common, BIG);
 //

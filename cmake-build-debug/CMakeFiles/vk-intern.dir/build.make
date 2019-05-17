@@ -57,31 +57,31 @@ include CMakeFiles/vk-intern.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vk-intern.dir/flags.make
 
-CMakeFiles/vk-intern.dir/main.cpp.o: CMakeFiles/vk-intern.dir/flags.make
-CMakeFiles/vk-intern.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vk-intern.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vk-intern.dir/main.cpp.o -c /Users/admin/Documents/University/vk-intern/main.cpp
+CMakeFiles/vk-intern.dir/count_common_elements.cpp.o: CMakeFiles/vk-intern.dir/flags.make
+CMakeFiles/vk-intern.dir/count_common_elements.cpp.o: ../count_common_elements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vk-intern.dir/count_common_elements.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vk-intern.dir/count_common_elements.cpp.o -c /Users/admin/Documents/University/vk-intern/count_common_elements.cpp
 
-CMakeFiles/vk-intern.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vk-intern.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/University/vk-intern/main.cpp > CMakeFiles/vk-intern.dir/main.cpp.i
+CMakeFiles/vk-intern.dir/count_common_elements.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vk-intern.dir/count_common_elements.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/University/vk-intern/count_common_elements.cpp > CMakeFiles/vk-intern.dir/count_common_elements.cpp.i
 
-CMakeFiles/vk-intern.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vk-intern.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/University/vk-intern/main.cpp -o CMakeFiles/vk-intern.dir/main.cpp.s
+CMakeFiles/vk-intern.dir/count_common_elements.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vk-intern.dir/count_common_elements.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/University/vk-intern/count_common_elements.cpp -o CMakeFiles/vk-intern.dir/count_common_elements.cpp.s
 
-CMakeFiles/vk-intern.dir/testing.cpp.o: CMakeFiles/vk-intern.dir/flags.make
-CMakeFiles/vk-intern.dir/testing.cpp.o: ../testing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vk-intern.dir/testing.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vk-intern.dir/testing.cpp.o -c /Users/admin/Documents/University/vk-intern/testing.cpp
+CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o: CMakeFiles/vk-intern.dir/flags.make
+CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o: ../count_common_elements_testing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Documents/University/vk-intern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o -c /Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp
 
-CMakeFiles/vk-intern.dir/testing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vk-intern.dir/testing.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/University/vk-intern/testing.cpp > CMakeFiles/vk-intern.dir/testing.cpp.i
+CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp > CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.i
 
-CMakeFiles/vk-intern.dir/testing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vk-intern.dir/testing.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/University/vk-intern/testing.cpp -o CMakeFiles/vk-intern.dir/testing.cpp.s
+CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp -o CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.s
 
 CMakeFiles/vk-intern.dir/gtest-all.cc.o: CMakeFiles/vk-intern.dir/flags.make
 CMakeFiles/vk-intern.dir/gtest-all.cc.o: ../gtest-all.cc
@@ -111,16 +111,16 @@ CMakeFiles/vk-intern.dir/gtest_main.cc.s: cmake_force
 
 # Object files for target vk-intern
 vk__intern_OBJECTS = \
-"CMakeFiles/vk-intern.dir/main.cpp.o" \
-"CMakeFiles/vk-intern.dir/testing.cpp.o" \
+"CMakeFiles/vk-intern.dir/count_common_elements.cpp.o" \
+"CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o" \
 "CMakeFiles/vk-intern.dir/gtest-all.cc.o" \
 "CMakeFiles/vk-intern.dir/gtest_main.cc.o"
 
 # External object files for target vk-intern
 vk__intern_EXTERNAL_OBJECTS =
 
-vk-intern: CMakeFiles/vk-intern.dir/main.cpp.o
-vk-intern: CMakeFiles/vk-intern.dir/testing.cpp.o
+vk-intern: CMakeFiles/vk-intern.dir/count_common_elements.cpp.o
+vk-intern: CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o
 vk-intern: CMakeFiles/vk-intern.dir/gtest-all.cc.o
 vk-intern: CMakeFiles/vk-intern.dir/gtest_main.cc.o
 vk-intern: CMakeFiles/vk-intern.dir/build.make

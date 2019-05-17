@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/Users/admin/Documents/University/vk-intern/count_common_elements.cpp
+vector
+-
+unordered_set
+-
+
+/Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp
+algorithm
+-
+vector
+-
+random
+-
+unordered_set
+-
+gtest.h
+/Users/admin/Documents/University/vk-intern/gtest.h
+
 /Users/admin/Documents/University/vk-intern/gtest.h
 limits
 -
@@ -131,24 +149,4 @@ iosfwd
 -
 vector
 -
-
-/Users/admin/Documents/University/vk-intern/main.cpp
-iostream
--
-vector
--
-unordered_set
--
-algorithm
--
-cassert
--
-cstdlib
--
-vector
--
-utility
--
-gtest.h
-/Users/admin/Documents/University/vk-intern/gtest.h
 
