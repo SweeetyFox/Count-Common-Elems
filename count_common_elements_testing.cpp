@@ -59,8 +59,8 @@ void generate_random_vectors(std::vector<int> &a, std::vector<int> &b, size_t &c
     }
 
     // shuffle for more randomness
-    std::shuffle(std::begin(a), std::end(a), int_random);
-    std::shuffle(std::begin(b), std::end(b), int_random);
+    std::shuffle(std::begin(a), std::end(a), std::mt19937());
+    std::shuffle(std::begin(b), std::end(b), std::mt19937());
 }
 
 TEST(hand_made_tests, extreme_cases) {

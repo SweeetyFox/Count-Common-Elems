@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/admin/Documents/University/vk-intern/count_common_elements.cpp
-vector
--
-unordered_set
--
-
-/Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp
+/Users/admin/Documents/intership/VK/vk-intern-2019/count_common_elements_testing.cpp
 algorithm
 -
 vector
@@ -22,9 +16,9 @@ random
 unordered_set
 -
 gtest.h
-/Users/admin/Documents/University/vk-intern/gtest.h
+/Users/admin/Documents/intership/VK/vk-intern-2019/gtest.h
 
-/Users/admin/Documents/University/vk-intern/gtest.h
+/Users/admin/Documents/intership/VK/vk-intern-2019/gtest.h
 limits
 -
 ostream

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/admin/Documents/University/vk-intern/count_common_elements.cpp" "/Users/admin/Documents/University/vk-intern/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements.cpp.o"
-  "/Users/admin/Documents/University/vk-intern/count_common_elements_testing.cpp" "/Users/admin/Documents/University/vk-intern/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o"
-  "/Users/admin/Documents/University/vk-intern/gtest-all.cc" "/Users/admin/Documents/University/vk-intern/cmake-build-release/CMakeFiles/vk-intern.dir/gtest-all.cc.o"
-  "/Users/admin/Documents/University/vk-intern/gtest_main.cc" "/Users/admin/Documents/University/vk-intern/cmake-build-release/CMakeFiles/vk-intern.dir/gtest_main.cc.o"
+  "/Users/admin/Documents/intership/VK/vk-intern-2019/count_common_elements.cpp" "/Users/admin/Documents/intership/VK/vk-intern-2019/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements.cpp.o"
+  "/Users/admin/Documents/intership/VK/vk-intern-2019/count_common_elements_testing.cpp" "/Users/admin/Documents/intership/VK/vk-intern-2019/cmake-build-release/CMakeFiles/vk-intern.dir/count_common_elements_testing.cpp.o"
+  "/Users/admin/Documents/intership/VK/vk-intern-2019/gtest-all.cc" "/Users/admin/Documents/intership/VK/vk-intern-2019/cmake-build-release/CMakeFiles/vk-intern.dir/gtest-all.cc.o"
+  "/Users/admin/Documents/intership/VK/vk-intern-2019/gtest_main.cc" "/Users/admin/Documents/intership/VK/vk-intern-2019/cmake-build-release/CMakeFiles/vk-intern.dir/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
